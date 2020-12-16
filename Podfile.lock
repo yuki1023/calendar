@@ -1,0 +1,32 @@
+PODS:
+  - FSCalendar (2.8.1)
+  - NCMB (3.1.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - FSCalendar
+  - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_ios.git`)
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - TransitionButton
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 06072ba57e6ef461cafd20feaa798be0eef0cf8b
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: c97eaeb412609b675b71ef047888515e0e7f9ad3
+
+COCOAPODS: 1.9.3

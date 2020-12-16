@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635038C334CDFE2F078528DC /* Pods_ScheduleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED4D248E3B57AB9CFBBC0B8 /* Pods_ScheduleApp.framework */; };
+		692B453F253EE3F100846E95 /* icons8-ホームボタン-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B453E253EE3F100846E95 /* icons8-ホームボタン-80.png */; };
+		692B4541253EE40C00846E95 /* icons8-checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B4540253EE40C00846E95 /* icons8-checkbox.png */; };
+		692B455C253EE6CE00846E95 /* ios_marketing1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454A253EE6CE00846E95 /* ios_marketing1024x1024.jpg */; };
+		692B455D253EE6CE00846E95 /* ipad_pro_app83.5x83.5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454B253EE6CE00846E95 /* ipad_pro_app83.5x83.5@2x.jpg */; };
+		692B455E253EE6CF00846E95 /* iphone_settings29x29@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454C253EE6CE00846E95 /* iphone_settings29x29@3x.jpg */; };
+		692B455F253EE6CF00846E95 /* ipad_settings29x29@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454D253EE6CE00846E95 /* ipad_settings29x29@2x.jpg */; };
+		692B4560253EE6CF00846E95 /* ipad_settings29x29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454E253EE6CE00846E95 /* ipad_settings29x29.jpg */; };
+		692B4561253EE6CF00846E95 /* iphone_settings29x29@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B454F253EE6CE00846E95 /* iphone_settings29x29@2x.jpg */; };
+		692B4562253EE6CF00846E95 /* iphone_notification20x20@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4550253EE6CE00846E95 /* iphone_notification20x20@2x.jpg */; };
+		692B4563253EE6CF00846E95 /* iphone_notification20x20@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4551253EE6CE00846E95 /* iphone_notification20x20@3x.jpg */; };
+		692B4564253EE6CF00846E95 /* ipad_app76x76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4552253EE6CE00846E95 /* ipad_app76x76.jpg */; };
+		692B4565253EE6CF00846E95 /* ipad_spotlight40x40@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4553253EE6CE00846E95 /* ipad_spotlight40x40@2x.jpg */; };
+		692B4566253EE6CF00846E95 /* iphone_app60x60@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4554253EE6CE00846E95 /* iphone_app60x60@3x.jpg */; };
+		692B4567253EE6CF00846E95 /* ipad_spotlight40x40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4555253EE6CE00846E95 /* ipad_spotlight40x40.jpg */; };
+		692B4568253EE6CF00846E95 /* iphone_app60x60@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4556253EE6CE00846E95 /* iphone_app60x60@2x.jpg */; };
+		692B4569253EE6CF00846E95 /* ipad_app76x76@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4557253EE6CE00846E95 /* ipad_app76x76@2x.jpg */; };
+		692B456A253EE6CF00846E95 /* iphone_spotlight40x40@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4558253EE6CE00846E95 /* iphone_spotlight40x40@3x.jpg */; };
+		692B456B253EE6CF00846E95 /* iphone_spotlight40x40@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B4559253EE6CE00846E95 /* iphone_spotlight40x40@2x.jpg */; };
+		692B456C253EE6CF00846E95 /* ipad_notification20x20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B455A253EE6CE00846E95 /* ipad_notification20x20.jpg */; };
+		692B456D253EE6CF00846E95 /* ipad_notification20x20@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B455B253EE6CE00846E95 /* ipad_notification20x20@2x.jpg */; };
+		692B456F2540121100846E95 /* iphone_notification20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B456E2540121100846E95 /* iphone_notification20x20@2x.png */; };
+		692B45712540122000846E95 /* ipad_settings29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B45702540121F00846E95 /* ipad_settings29x29@2x.png */; };
+		692B45772540214B00846E95 /* icons8-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B45762540214B00846E95 /* icons8-checkmark.png */; };
+		692B45792540236500846E95 /* icons8-申年-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B45782540236500846E95 /* icons8-申年-48.png */; };
+		692B457B2540236D00846E95 /* icons8-カレンダー-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 692B457A2540236D00846E95 /* icons8-カレンダー-48.png */; };
+		692B457D25402F3B00846E95 /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 692B457C25402F3B00846E95 /* forest.jpg */; };
+		697A361125271281003B158A /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A361025271281003B158A /* GraphViewController.swift */; };
+		697A361325271346003B158A /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A361225271346003B158A /* EndViewController.swift */; };
+		69B4558C24FD07D80041D6E2 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B4558B24FD07D80041D6E2 /* CalenderViewController.swift */; };
+		69B4558E24FD07F10041D6E2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B4558D24FD07F10041D6E2 /* AddViewController.swift */; };
+		69B4559024FD08080041D6E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B4558F24FD08080041D6E2 /* DetailViewController.swift */; };
+		69B455952511A7830041D6E2 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B455932511A7830041D6E2 /* ScheduleTableViewCell.swift */; };
+		69B455962511A7840041D6E2 /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B455942511A7830041D6E2 /* ScheduleTableViewCell.xib */; };
+		69B455AA2521BE390041D6E2 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B455A92521BE390041D6E2 /* Checkbox.swift */; };
+		69C0778E24FD00C5008E1B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0778D24FD00C5008E1B50 /* AppDelegate.swift */; };
+		69C0779024FD00C5008E1B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0778F24FD00C5008E1B50 /* SceneDelegate.swift */; };
+		69C0779524FD00C5008E1B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C0779324FD00C5008E1B50 /* Main.storyboard */; };
+		69C0779724FD00CB008E1B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C0779624FD00CB008E1B50 /* Assets.xcassets */; };
+		69C0779A24FD00CB008E1B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C0779824FD00CB008E1B50 /* LaunchScreen.storyboard */; };
+		69E51AC5253B3AEB00E5E74C /* IMG_3259.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69E51AC0253B3AE800E5E74C /* IMG_3259.JPG */; };
+		69E51AC6253B3AEB00E5E74C /* IMG_3261.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69E51AC1253B3AE900E5E74C /* IMG_3261.JPG */; };
+		69E51AC7253B3AEB00E5E74C /* IMG_3257.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69E51AC2253B3AEA00E5E74C /* IMG_3257.JPG */; };
+		69E51AC8253B3AEB00E5E74C /* IMG_3260.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69E51AC3253B3AEA00E5E74C /* IMG_3260.JPG */; };
+		69E51AC9253B3AEB00E5E74C /* IMG_3258.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69E51AC4253B3AEB00E5E74C /* IMG_3258.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ED4D248E3B57AB9CFBBC0B8 /* Pods_ScheduleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScheduleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421E95D409EA232BE7D85290 /* Pods-ScheduleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleApp.debug.xcconfig"; path = "Target Support Files/Pods-ScheduleApp/Pods-ScheduleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		692B453E253EE3F100846E95 /* icons8-ホームボタン-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ホームボタン-80.png"; sourceTree = "<group>"; };
+		692B4540253EE40C00846E95 /* icons8-checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-checkbox.png"; path = "ScheduleApp/images/icons8-checkbox.png"; sourceTree = SOURCE_ROOT; };
+		692B454A253EE6CE00846E95 /* ios_marketing1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ios_marketing1024x1024.jpg; sourceTree = "<group>"; };
+		692B454B253EE6CE00846E95 /* ipad_pro_app83.5x83.5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad_pro_app83.5x83.5@2x.jpg"; sourceTree = "<group>"; };
+		692B454C253EE6CE00846E95 /* iphone_settings29x29@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_settings29x29@3x.jpg"; sourceTree = "<group>"; };
+		692B454D253EE6CE00846E95 /* ipad_settings29x29@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad_settings29x29@2x.jpg"; sourceTree = "<group>"; };
+		692B454E253EE6CE00846E95 /* ipad_settings29x29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_settings29x29.jpg; sourceTree = "<group>"; };
+		692B454F253EE6CE00846E95 /* iphone_settings29x29@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_settings29x29@2x.jpg"; sourceTree = "<group>"; };
+		692B4550253EE6CE00846E95 /* iphone_notification20x20@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_notification20x20@2x.jpg"; sourceTree = "<group>"; };
+		692B4551253EE6CE00846E95 /* iphone_notification20x20@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_notification20x20@3x.jpg"; sourceTree = "<group>"; };
+		692B4552253EE6CE00846E95 /* ipad_app76x76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_app76x76.jpg; sourceTree = "<group>"; };
+		692B4553253EE6CE00846E95 /* ipad_spotlight40x40@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad_spotlight40x40@2x.jpg"; sourceTree = "<group>"; };
+		692B4554253EE6CE00846E95 /* iphone_app60x60@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_app60x60@3x.jpg"; sourceTree = "<group>"; };
+		692B4555253EE6CE00846E95 /* ipad_spotlight40x40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_spotlight40x40.jpg; sourceTree = "<group>"; };
+		692B4556253EE6CE00846E95 /* iphone_app60x60@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_app60x60@2x.jpg"; sourceTree = "<group>"; };
+		692B4557253EE6CE00846E95 /* ipad_app76x76@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad_app76x76@2x.jpg"; sourceTree = "<group>"; };
+		692B4558253EE6CE00846E95 /* iphone_spotlight40x40@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_spotlight40x40@3x.jpg"; sourceTree = "<group>"; };
+		692B4559253EE6CE00846E95 /* iphone_spotlight40x40@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone_spotlight40x40@2x.jpg"; sourceTree = "<group>"; };
+		692B455A253EE6CE00846E95 /* ipad_notification20x20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_notification20x20.jpg; sourceTree = "<group>"; };
+		692B455B253EE6CE00846E95 /* ipad_notification20x20@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad_notification20x20@2x.jpg"; sourceTree = "<group>"; };
+		692B456E2540121100846E95 /* iphone_notification20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone_notification20x20@2x.png"; sourceTree = "<group>"; };
+		692B45702540121F00846E95 /* ipad_settings29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_settings29x29@2x.png"; sourceTree = "<group>"; };
+		692B45762540214B00846E95 /* icons8-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-checkmark.png"; sourceTree = "<group>"; };
+		692B45782540236500846E95 /* icons8-申年-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-申年-48.png"; sourceTree = "<group>"; };
+		692B457A2540236D00846E95 /* icons8-カレンダー-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-カレンダー-48.png"; sourceTree = "<group>"; };
+		692B457C25402F3B00846E95 /* forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpg; sourceTree = "<group>"; };
+		697A361025271281003B158A /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		697A361225271346003B158A /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		69B4558B24FD07D80041D6E2 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		69B4558D24FD07F10041D6E2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		69B4558F24FD08080041D6E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		69B455932511A7830041D6E2 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		69B455942511A7830041D6E2 /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		69B455A92521BE390041D6E2 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		69C0778A24FD00C5008E1B50 /* ScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C0778D24FD00C5008E1B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C0778F24FD00C5008E1B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69C0779424FD00C5008E1B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C0779624FD00CB008E1B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C0779924FD00CB008E1B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C0779B24FD00CB008E1B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E51AC0253B3AE800E5E74C /* IMG_3259.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3259.JPG; sourceTree = "<group>"; };
+		69E51AC1253B3AE900E5E74C /* IMG_3261.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3261.JPG; sourceTree = "<group>"; };
+		69E51AC2253B3AEA00E5E74C /* IMG_3257.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3257.JPG; sourceTree = "<group>"; };
+		69E51AC3253B3AEA00E5E74C /* IMG_3260.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3260.JPG; sourceTree = "<group>"; };
+		69E51AC4253B3AEB00E5E74C /* IMG_3258.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3258.JPG; sourceTree = "<group>"; };
+		89E13FC57CA387D8C364A818 /* Pods-ScheduleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleApp.release.xcconfig"; path = "Target Support Files/Pods-ScheduleApp/Pods-ScheduleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C0778724FD00C5008E1B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635038C334CDFE2F078528DC /* Pods_ScheduleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D069624A71D6FB412DDA966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421E95D409EA232BE7D85290 /* Pods-ScheduleApp.debug.xcconfig */,
+				89E13FC57CA387D8C364A818 /* Pods-ScheduleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F734CF408AC29800875F277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4D248E3B57AB9CFBBC0B8 /* Pods_ScheduleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		692B4548253EE6AC00846E95 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				69E51A972538C24E00E5E74C /* png2jpg */,
+				692B4549253EE6CE00846E95 /* png2jpg-4 */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		692B4549253EE6CE00846E95 /* png2jpg-4 */ = {
+			isa = PBXGroup;
+			children = (
+				692B454A253EE6CE00846E95 /* ios_marketing1024x1024.jpg */,
+				692B454B253EE6CE00846E95 /* ipad_pro_app83.5x83.5@2x.jpg */,
+				692B454C253EE6CE00846E95 /* iphone_settings29x29@3x.jpg */,
+				692B454D253EE6CE00846E95 /* ipad_settings29x29@2x.jpg */,
+				692B454E253EE6CE00846E95 /* ipad_settings29x29.jpg */,
+				692B454F253EE6CE00846E95 /* iphone_settings29x29@2x.jpg */,
+				692B4550253EE6CE00846E95 /* iphone_notification20x20@2x.jpg */,
+				692B4551253EE6CE00846E95 /* iphone_notification20x20@3x.jpg */,
+				692B4552253EE6CE00846E95 /* ipad_app76x76.jpg */,
+				692B45702540121F00846E95 /* ipad_settings29x29@2x.png */,
+				692B4553253EE6CE00846E95 /* ipad_spotlight40x40@2x.jpg */,
+				692B4554253EE6CE00846E95 /* iphone_app60x60@3x.jpg */,
+				692B4555253EE6CE00846E95 /* ipad_spotlight40x40.jpg */,
+				692B4556253EE6CE00846E95 /* iphone_app60x60@2x.jpg */,
+				692B4557253EE6CE00846E95 /* ipad_app76x76@2x.jpg */,
+				692B4558253EE6CE00846E95 /* iphone_spotlight40x40@3x.jpg */,
+				692B4559253EE6CE00846E95 /* iphone_spotlight40x40@2x.jpg */,
+				692B456E2540121100846E95 /* iphone_notification20x20@2x.png */,
+				692B455A253EE6CE00846E95 /* ipad_notification20x20.jpg */,
+				692B455B253EE6CE00846E95 /* ipad_notification20x20@2x.jpg */,
+				692B457C25402F3B00846E95 /* forest.jpg */,
+				692B45782540236500846E95 /* icons8-申年-48.png */,
+			);
+			path = "png2jpg-4";
+			sourceTree = "<group>";
+		};
+		69C0778124FD00C5008E1B50 = {
+			isa = PBXGroup;
+			children = (
+				69C0778C24FD00C5008E1B50 /* ScheduleApp */,
+				69C0778B24FD00C5008E1B50 /* Products */,
+				4D069624A71D6FB412DDA966 /* Pods */,
+				5F734CF408AC29800875F277 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69C0778B24FD00C5008E1B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C0778A24FD00C5008E1B50 /* ScheduleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C0778C24FD00C5008E1B50 /* ScheduleApp */ = {
+			isa = PBXGroup;
+			children = (
+				69D61FD325313C1600C1C77F /* New Group */,
+				69C0778D24FD00C5008E1B50 /* AppDelegate.swift */,
+				69C0778F24FD00C5008E1B50 /* SceneDelegate.swift */,
+				69B4558B24FD07D80041D6E2 /* CalenderViewController.swift */,
+				69B4558F24FD08080041D6E2 /* DetailViewController.swift */,
+				69B4558D24FD07F10041D6E2 /* AddViewController.swift */,
+				697A361025271281003B158A /* GraphViewController.swift */,
+				697A361225271346003B158A /* EndViewController.swift */,
+				69B455932511A7830041D6E2 /* ScheduleTableViewCell.swift */,
+				69B455A92521BE390041D6E2 /* Checkbox.swift */,
+				69B455942511A7830041D6E2 /* ScheduleTableViewCell.xib */,
+				69C0779324FD00C5008E1B50 /* Main.storyboard */,
+				69C0779624FD00CB008E1B50 /* Assets.xcassets */,
+				69C0779824FD00CB008E1B50 /* LaunchScreen.storyboard */,
+				69C0779B24FD00CB008E1B50 /* Info.plist */,
+			);
+			path = ScheduleApp;
+			sourceTree = "<group>";
+		};
+		69D61FD325313C1600C1C77F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				692B4548253EE6AC00846E95 /* New Group */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		69E51A972538C24E00E5E74C /* png2jpg */ = {
+			isa = PBXGroup;
+			children = (
+				69E51AC2253B3AEA00E5E74C /* IMG_3257.JPG */,
+				69E51AC4253B3AEB00E5E74C /* IMG_3258.JPG */,
+				69E51AC0253B3AE800E5E74C /* IMG_3259.JPG */,
+				69E51AC3253B3AEA00E5E74C /* IMG_3260.JPG */,
+				69E51AC1253B3AE900E5E74C /* IMG_3261.JPG */,
+				692B457A2540236D00846E95 /* icons8-カレンダー-48.png */,
+				692B453E253EE3F100846E95 /* icons8-ホームボタン-80.png */,
+				692B45762540214B00846E95 /* icons8-checkmark.png */,
+				692B4540253EE40C00846E95 /* icons8-checkbox.png */,
+			);
+			path = png2jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C0778924FD00C5008E1B50 /* ScheduleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C0779E24FD00CB008E1B50 /* Build configuration list for PBXNativeTarget "ScheduleApp" */;
+			buildPhases = (
+				44358BD10C6A3B5E20E11FB1 /* [CP] Check Pods Manifest.lock */,
+				69C0778624FD00C5008E1B50 /* Sources */,
+				69C0778724FD00C5008E1B50 /* Frameworks */,
+				69C0778824FD00C5008E1B50 /* Resources */,
+				AC4809AAD974A4F69E22CC2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleApp;
+			productName = ScheduleApp;
+			productReference = 69C0778A24FD00C5008E1B50 /* ScheduleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C0778224FD00C5008E1B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = net_shinohara;
+				TargetAttributes = {
+					69C0778924FD00C5008E1B50 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 69C0778524FD00C5008E1B50 /* Build configuration list for PBXProject "ScheduleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C0778124FD00C5008E1B50;
+			productRefGroup = 69C0778B24FD00C5008E1B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C0778924FD00C5008E1B50 /* ScheduleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C0778824FD00C5008E1B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E51AC7253B3AEB00E5E74C /* IMG_3257.JPG in Resources */,
+				692B45712540122000846E95 /* ipad_settings29x29@2x.png in Resources */,
+				692B45792540236500846E95 /* icons8-申年-48.png in Resources */,
+				692B4560253EE6CF00846E95 /* ipad_settings29x29.jpg in Resources */,
+				692B4566253EE6CF00846E95 /* iphone_app60x60@3x.jpg in Resources */,
+				69C0779A24FD00CB008E1B50 /* LaunchScreen.storyboard in Resources */,
+				692B455C253EE6CE00846E95 /* ios_marketing1024x1024.jpg in Resources */,
+				692B456B253EE6CF00846E95 /* iphone_spotlight40x40@2x.jpg in Resources */,
+				692B4564253EE6CF00846E95 /* ipad_app76x76.jpg in Resources */,
+				692B4541253EE40C00846E95 /* icons8-checkbox.png in Resources */,
+				69E51AC5253B3AEB00E5E74C /* IMG_3259.JPG in Resources */,
+				692B45772540214B00846E95 /* icons8-checkmark.png in Resources */,
+				69E51AC6253B3AEB00E5E74C /* IMG_3261.JPG in Resources */,
+				692B455E253EE6CF00846E95 /* iphone_settings29x29@3x.jpg in Resources */,
+				692B4569253EE6CF00846E95 /* ipad_app76x76@2x.jpg in Resources */,
+				692B4565253EE6CF00846E95 /* ipad_spotlight40x40@2x.jpg in Resources */,
+				692B4562253EE6CF00846E95 /* iphone_notification20x20@2x.jpg in Resources */,
+				69C0779724FD00CB008E1B50 /* Assets.xcassets in Resources */,
+				69B455962511A7840041D6E2 /* ScheduleTableViewCell.xib in Resources */,
+				69E51AC8253B3AEB00E5E74C /* IMG_3260.JPG in Resources */,
+				692B456F2540121100846E95 /* iphone_notification20x20@2x.png in Resources */,
+				692B4568253EE6CF00846E95 /* iphone_app60x60@2x.jpg in Resources */,
+				692B456A253EE6CF00846E95 /* iphone_spotlight40x40@3x.jpg in Resources */,
+				69C0779524FD00C5008E1B50 /* Main.storyboard in Resources */,
+				692B4567253EE6CF00846E95 /* ipad_spotlight40x40.jpg in Resources */,
+				69E51AC9253B3AEB00E5E74C /* IMG_3258.JPG in Resources */,
+				692B456D253EE6CF00846E95 /* ipad_notification20x20@2x.jpg in Resources */,
+				692B455D253EE6CE00846E95 /* ipad_pro_app83.5x83.5@2x.jpg in Resources */,
+				692B457D25402F3B00846E95 /* forest.jpg in Resources */,
+				692B453F253EE3F100846E95 /* icons8-ホームボタン-80.png in Resources */,
+				692B4561253EE6CF00846E95 /* iphone_settings29x29@2x.jpg in Resources */,
+				692B456C253EE6CF00846E95 /* ipad_notification20x20.jpg in Resources */,
+				692B457B2540236D00846E95 /* icons8-カレンダー-48.png in Resources */,
+				692B455F253EE6CF00846E95 /* ipad_settings29x29@2x.jpg in Resources */,
+				692B4563253EE6CF00846E95 /* iphone_notification20x20@3x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44358BD10C6A3B5E20E11FB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScheduleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4809AAD974A4F69E22CC2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleApp/Pods-ScheduleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleApp/Pods-ScheduleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScheduleApp/Pods-ScheduleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C0778624FD00C5008E1B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697A361325271346003B158A /* EndViewController.swift in Sources */,
+				69B455952511A7830041D6E2 /* ScheduleTableViewCell.swift in Sources */,
+				69B4558C24FD07D80041D6E2 /* CalenderViewController.swift in Sources */,
+				69C0778E24FD00C5008E1B50 /* AppDelegate.swift in Sources */,
+				69B4559024FD08080041D6E2 /* DetailViewController.swift in Sources */,
+				69B455AA2521BE390041D6E2 /* Checkbox.swift in Sources */,
+				69B4558E24FD07F10041D6E2 /* AddViewController.swift in Sources */,
+				697A361125271281003B158A /* GraphViewController.swift in Sources */,
+				69C0779024FD00C5008E1B50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69C0779324FD00C5008E1B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C0779424FD00C5008E1B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C0779824FD00CB008E1B50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C0779924FD00CB008E1B50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C0779C24FD00CB008E1B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69C0779D24FD00CB008E1B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C0779F24FD00CB008E1B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421E95D409EA232BE7D85290 /* Pods-ScheduleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScheduleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net-shinohara.ScheduleApp";
+				PRODUCT_NAME = ScheduleApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C077A024FD00CB008E1B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E13FC57CA387D8C364A818 /* Pods-ScheduleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScheduleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net-shinohara.ScheduleApp";
+				PRODUCT_NAME = ScheduleApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C0778524FD00C5008E1B50 /* Build configuration list for PBXProject "ScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C0779C24FD00CB008E1B50 /* Debug */,
+				69C0779D24FD00CB008E1B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C0779E24FD00CB008E1B50 /* Build configuration list for PBXNativeTarget "ScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C0779F24FD00CB008E1B50 /* Debug */,
+				69C077A024FD00CB008E1B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C0778224FD00C5008E1B50 /* Project object */;
+}
