@@ -2,9 +2,9 @@
 カレンダー  
 日本地図からゲレンデの基本情報とレビューの投稿、現在の天気とWebサイトを閲覧することができます。  
 
-![result](https://user-images.githubusercontent.com/64241438/102869880-99fd9400-447f-11eb-8642-eba284289d65.gif)
-![result](https://user-images.githubusercontent.com/64241438/102870114-ec3eb500-447f-11eb-9258-8c151a7e2784.gif)
-![result](https://user-images.githubusercontent.com/64241438/102870425-58b9b400-4480-11eb-9853-b64421a7da31.gif)
+![result1](https://user-images.githubusercontent.com/64241438/103880883-0da8cd80-511d-11eb-8852-ad5a925bcb6c.gif)
+![result2](https://user-images.githubusercontent.com/64241438/103880941-21543400-511d-11eb-8ed4-74c68195b159.gif)
+![result3](https://user-images.githubusercontent.com/64241438/103880983-2e712300-511d-11eb-9b4b-9b664be6234f.gif)
 
 
 ## 使用技術
