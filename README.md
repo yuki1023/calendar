@@ -1,6 +1,7 @@
 # calendar & todo
-カレンダー  
-日本地図からゲレンデの基本情報とレビューの投稿、現在の天気とWebサイトを閲覧することができます。  
+カレンダーとtodoアプリを混ぜたアプリです。  
+日付を選択し、その日の予定を投稿することができます。  
+さらに、チェックボックスでチェックをつけることでその日の達成度を確認することができます。  
 
 ![result1](https://user-images.githubusercontent.com/64241438/103880883-0da8cd80-511d-11eb-8852-ad5a925bcb6c.gif)
 ![result2](https://user-images.githubusercontent.com/64241438/103880941-21543400-511d-11eb-8ed4-74c68195b159.gif)
